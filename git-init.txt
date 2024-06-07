@@ -1,0 +1,3 @@
+git init
+To remove the Init git - just do rm -rf .git
+
