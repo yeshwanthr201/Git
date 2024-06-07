@@ -1,0 +1,11 @@
+git init
+git status
+rm -rf .git to remove git
+git add filename - to stage the files
+use "git rm --cached <file>..." to unstage
+git commit -m "custom Messgae" - to Add file to the local repository
+git config --global user.email "yeshwanthr201@gmail.com"
+git remote add origin https://github.com/yeshwanthr201/Git.git - to connect to Remote Repository 
+https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9zz6nzqcdiccv7j6gnag.png to Generate a Token 
+
+git push origin master - To  Push the code to Repository
