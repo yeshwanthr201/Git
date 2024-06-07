@@ -1,2 +1,75 @@
-git status
-DF
+    1  apt update
+    2  apt install -y docker.io
+    3  systemctl enable docker --now
+    4  docker
+    5  docker run postgres:12
+    6  docker ps
+    7  docker images
+    8  clear
+    9  docker run --name PSQL -e POSTGRES_PASSWORD=Kali@12 -d postgres:12
+   10  docker ps
+   11  docker ps -a
+   12  psql -h PSQL -U postgres
+   13  docker exec -it PSQL psql -U postgres
+   14  ip -a
+   15  ip -addr
+   16  ifconfig
+   17  docker ps
+   18  docker exec -it PSQL psql -U postgres
+   19  clear
+   20  docker run --name PSQL1 -e POSTGRES_PASSWORD=Kali@12 -p5432:5432 -d postgres
+   21  docker run --name PSQL1 -e POSTGRES_PASSWORD=Kali@12 -p5432:5432 -d postgres:12
+   22  docker ps
+   23  init 0
+   24  ls
+   25  ping www.google.com
+   26  docker ps -a
+   27  docker start 68340b4bff3e
+   28  docker ps
+   29  clear
+   30  docker ps
+   31  docker exec -it PSQL 
+   32  docker exec -it PSQL psql -U postgres
+   33  init 0
+   34  ls
+   35  ping www.google.com
+   36  docker ps -a
+   37  docker start 68340b4bff3e
+   38  docker ps
+   39  clear
+   40  docker ps
+   41  docker exec -it PSQL 
+   42  docker exec -it PSQL psql -U postgres
+   43  init 0
+   44  docker ps
+   45  docker images
+   46  ifconfig
+   47  clear
+   48  docker ps
+   49  docker ps -a
+   50  docker start e3d368c4c4aa
+   51  docker ps
+   52  docker images
+   53  docker exec -it e3d368c4c4aa
+   54  docker exec -it e3d368c4c4aa /bin/bash
+   55  docker ps
+   56  docker stop PSQL1
+   57  docker ps
+   58  init 0
+   59  clear
+   60  cd /home/master/Git
+   61  ls
+   62  git status
+   63  git remote add origin https://github.com/yeshwanthr201/Git.git
+   64  git remote add origin "https://github.com/yeshwanthr201/Git.git"
+   65  git push origin master
+   66  git push -u origin main
+   67  git push -u origin master
+   68  git push origin master
+   69  vim Gitcmds.txt
+   70  git status
+   71  git add Gitcmds.txt
+   72  git status
+   73  git commit -m "Adding Git Command to Repository"
+   74  git status
+   75  ls
